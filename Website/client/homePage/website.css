@@ -1,0 +1,60 @@
+body {
+    background-color:#2b2b2b;
+    color: #2d6bbb;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Helvetica Neue', Helvetica Arial, sans-serif;
+    margin: 0px;
+}
+
+.title {
+    text-align: center;
+    font-size: 80px;
+    padding-top: 45px;
+}
+
+.main {
+    padding-top: 20px;
+}
+
+#aboutUsP.main {
+    height: 550px;
+    -webkit-column-count: 2;
+    text-align: center;
+}
+#aboutUsP.main p {
+    width: 50%;
+    margin-left: 25%;
+    text-align: justify;
+}
+
+#Nav li{
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    width: 16.57%;
+    color: dodgerblue;
+}
+
+#Nav {
+    width: 100%;
+}
+
+#NavDiv {
+    width : 100%;
+    background-color: black;
+}
+
+#TopNav {
+    width: 100%;
+}
+
+.Head {
+    text-align: center;
+    margin-top: 10%;
+}
+
+button {
+    color: #000000;
+    margin-bottom: 10px;
+}

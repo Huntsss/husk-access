@@ -1,0 +1,53 @@
+<head>
+    <title>HomePage</title>
+</head>
+
+<body>
+</body>
+
+<template name="homePage">
+    {{>navigation}}
+    <div class="Head animated bounceInUp">
+        <h1 id="GattiPrat">Welcome to Meteor!</h1>
+        <h3 id="Leader">Your leader in the flaming space rock industry.</h3>
+
+        {{> hello}}
+        {{> reset}}
+    </div>
+</template>
+
+<template name="navigation">
+    <div id="NavDiv" class="Navigation">
+        <div id="TopNav" class="container" style="margin-left: 0px;padding-right: 0px;padding-left: 0px">
+            <ul class="nav nav-pills" id="Nav">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/about_us">About Us</a>
+                </li>
+                <li>
+                    <a href="#">Project 1</a>
+                </li>
+                <li>
+                    <a href="#">Project 2</a>
+                </li>
+                <li>
+                    <a href="#">Project 3</a>
+                </li>
+                <li>
+                    <a href="/contact_us">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</template>
+
+<template name="hello">
+    <button id="haha">Click Here</button>
+    <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="reset">
+    <button id="resetatti">Reset</button>
+</template>
