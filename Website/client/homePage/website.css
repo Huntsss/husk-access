@@ -17,6 +17,13 @@ body {
     padding-top: 20px;
 }
 
+.footer {
+    text-align: center;
+    position: fixed;
+    left: 40.25%;
+    bottom: 0px;
+}
+
 #aboutUsP.main {
     height: 550px;
     -webkit-column-count: 2;
@@ -52,6 +59,11 @@ body {
 .Head {
     text-align: center;
     margin-top: 10%;
+}
+
+#doYouEvenHaHa {
+    padding-top: 5%;
+    text-align: center;
 }
 
 button {
