@@ -8,15 +8,15 @@ Router.route('/about_us', function () {
 
 Router.route('/jscript_grapher', function () {
     this.render('jscriptGrapher')
-})
+});
 
 Router.route('/second_project', function () {
     this.render('secondProject')
-})
+});
 
 Router.route('/project_expo', function () {
     this.render('projectExpo')
-})
+});
 
 Router.route('/contact_us', function () {
     this.render('contactUs');
