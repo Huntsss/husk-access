@@ -1,56 +1,23 @@
 <head>
     <title>HomePage</title>
+    <link rel="icon" href="/favicon.ico?v=2">
 </head>
 
 <body>
 </body>
 
 <template name="homePage">
-    {{>navigation}}
+    {{> navigation}}
     <div class="Head animated bounceInUp">
-        <h1 id="GattiPrat">Welcome to Meteor!</h1>
-        <h3 id="Leader">Your leader in the flaming space rock industry.</h3>
-
-        {{> hello}}
-        {{> reset}}
+        <h1 id="GattiPrat">Welcome to MarketBoard!</h1>
+        <h3 id="Leader">Your leader in stock trading for college students.</h3>
     </div>
     <div class="footer">
-        <p>Feel free to access the source code for this website <a href="https://github.com/Huntsss/husk-access/tree/master/Website">here</a>.</p>
-    </div>
-</template>
-
-<template name="navigation">
-    <div id="NavDiv" class="Navigation">
-        <div id="TopNav" class="container" style="margin-left: 0px;padding-right: 0px;padding-left: 0px">
-            <ul class="nav nav-pills" id="Nav">
-                <li>
-                    <a href="/">Home</a>
-                </li>
-                <li>
-                    <a href="/about_us">About Us</a>
-                </li>
-                <li>
-                    <a href="/jscript_grapher">Grapher</a>
-                </li>
-                <li>
-                    <a href="/second_project">Project 2</a>
-                </li>
-                <li>
-                    <a href="/project_expo">Coming Soon...</a>
-                </li>
-                <li>
-                    <a href="/contact_us">Contact Us</a>
-                </li>
-            </ul>
+        <div class="source">
+            <p><a href="https://github.com/Huntsss/husk-access/tree/master/Website">Feel free to access the source code for this website here</a></p>
+        </div>
+        <div class="source">
+            <p><a href="https://www.meteor.com/">This website uses the Meteor framework</a></p>
         </div>
     </div>
-</template>
-
-<template name="hello">
-    <button id="haha">Click Here</button>
-    <p>You've pressed the button {{counter}} times.</p>
-</template>
-
-<template name="reset">
-    <button id="resetatti">Reset</button>
 </template>
