@@ -1,5 +1,5 @@
 Router.route('/', function () {
-    this.render('homePage');
+    this.render("homePage");
 });
 
 Router.route('/about_us', function () {
@@ -7,11 +7,11 @@ Router.route('/about_us', function () {
 });
 
 Router.route('/jscript_grapher', function () {
-    this.render('jscriptGrapher')
+    this.render('grapher')
 });
 
-Router.route('/second_project', function () {
-    this.render('secondProject')
+Router.route('/otherProjects', function () {
+    this.render('otherProjects')
 });
 
 Router.route('/project_expo', function () {
