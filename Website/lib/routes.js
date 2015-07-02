@@ -17,7 +17,3 @@ Router.route('/second_project', function () {
 Router.route('/project_expo', function () {
     this.render('projectExpo')
 });
-
-Router.route('/contact_us', function () {
-    this.render('contactUs');
-});
